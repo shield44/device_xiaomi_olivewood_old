@@ -54,6 +54,11 @@ debug.stagefright.omx_default_rank=0
 vendor.vidc.disable.split.mode=1
 vendor.vidc.enc.disable.pq=true
 
+#Memory optimization
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.qti.sys.fw.bservice_enable=true \
+    ro.vendor.qti.am.reschedule_service=true
+
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 
@@ -64,4 +69,3 @@ persist.vendor.radio.procedure_bytes=SKIP
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
 ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 ro.surface_flinger.max_virtual_display_dimension=4096
-ro.surface_flinger.protected_contents=true
