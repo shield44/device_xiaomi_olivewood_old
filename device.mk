@@ -134,6 +134,11 @@ PRODUCT_PACKAGES += \
     libgenlock \
     libtinyxml \
     vendor.display.config@1.11
+    libnl
+
+# Doze mode
+PRODUCT_PACKAGES += \
+    XiaomiDoze
 
 # DRM
 PRODUCT_PACKAGES += \
