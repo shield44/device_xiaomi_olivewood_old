@@ -415,6 +415,7 @@ PRODUCT_PACKAGES += \
     libQWiFiSoftApCfg \
     libwpa_client \
     hostapd \
+    WifiOverlay \
     dhcpcd.conf \
     wcnss_service \
     wificond \
