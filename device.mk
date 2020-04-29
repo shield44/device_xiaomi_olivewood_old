@@ -315,6 +315,13 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/telephony_product_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephony_product_privapp-permissions-qti.xml \
     $(LOCAL_PATH)/configs/permissions/telephony_system-ext_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml
 
+# VNDK
+# FIXME: master: compat for libprotobuf
+# See https://android-review.googlesource.com/c/platform/prebuilts/vndk/v28/+/1109518
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full-vendorcompat \
+    libprotobuf-cpp-lite-vendorcompat
+
 # Wifi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
