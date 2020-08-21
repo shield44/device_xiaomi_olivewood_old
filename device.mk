@@ -375,6 +375,10 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/qcom-caf/msm8996/media \
     hardware/qcom-caf/msm8996-los/audio
 
+# Tethering
+PRODUCT_PACKAGES += \
+    TetheringConfigOverlay
+
 # Thermal
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
