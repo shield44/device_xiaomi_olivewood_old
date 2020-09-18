@@ -143,6 +143,9 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 
+# SELinux
+include device/qcom/sepolicy-legacy-um/SEPolicy.mk
+
 # Treble
 PRODUCT_FULL_TREBLE_OVERRIDE := true
 BOARD_VNDK_VERSION := current
