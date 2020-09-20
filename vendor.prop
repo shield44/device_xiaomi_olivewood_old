@@ -1,3 +1,7 @@
+# Adreno
+ro.hardware.egl=adreno
+ro.hardware.vulkan=adreno
+
 # Audio
 persist.vendor.audio.fluence.speaker=true
 persist.vendor.audio.fluence.voicecall=true
