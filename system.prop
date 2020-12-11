@@ -41,6 +41,10 @@ ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
 ro.surface_flinger.max_virtual_display_dimension=4096
 vendor.display.disable_skip_validate=1
 
+# Power saving
+power.saving.mode=1
+pm.sleep_mode=1
+
 # Media
 media.stagefright.thumbnail.prefer_hw_codecs=true
 vendor.mm.enable.qcom_parser=1048575
@@ -68,6 +72,8 @@ persist.vendor.radio.sw_mbn_update=0
 ril.subscription.types=NV,RUIM
 ro.telephony.default_network=22,22
 telephony.lteOnCdmaDevice=1
+ro.vold.umsdirtyratio=20
+ro.ril.disable.power.collapse=0
 
 # Screen density
 ro.sf.lcd_density=360
