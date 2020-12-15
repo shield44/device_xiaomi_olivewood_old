@@ -92,6 +92,7 @@ PRODUCT_PACKAGES += \
     libgui_vendor \
     libmm-qcamera \
     libdng_sdk.vendor \
+    libstdc++.vendor \
     Snap
 
 PRODUCT_PACKAGES += \
