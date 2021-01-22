@@ -139,12 +139,11 @@ PRODUCT_PACKAGES += \
     libqdMetaData.system \
     libgenlock \
     libtinyxml \
-    vendor.display.config@1.11 \
-    libnl
-
-# Doze mode
-PRODUCT_PACKAGES += \
-    XiaomiDoze
+    libnl \
+    libwfdaac \
+    vendor.display.config@1.0.vendor \
+    vendor.display.config@2.0 \
+    vendor.display.config@2.0.vendor
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -256,6 +255,9 @@ PRODUCT_PACKAGES += \
     libOmxSwVencHevc \
     libOmxVdec \
     libOmxVenc \
+    libstagefright_enc_common \
+    libstagefright_omx.vendor \
+    libstagefright_softomx \
     libstagefrighthw
 
 # QTI
