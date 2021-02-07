@@ -8,5 +8,11 @@
     "repository" : "kernel_xiaomi_olivewood",
     "target_path": "kernel/xiaomi/olivewood",
     "branch"     : "eleven"
+  },
+  { 
+    "remote"     : "github",
+    "repository" : "shield44/android_vendor_miuicamera",
+    "target_path": "vendor/miuicamera",
+    "branch"     : "11.0"
   }
 ]

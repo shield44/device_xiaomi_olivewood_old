@@ -83,6 +83,13 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.btconfigstore@1.0.vendor \
 
 # Camera
+ifneq ($(wildcard vendor/miuicamera),)
+$(call inherit-product, vendor/miuicamera/config.mk)
+PRODUCT_COPY_FILES += \
+    vendor/miuicamera/common/proprietary/etc/device_features/olivelite.xml:$(TARGET_COPY_OUT_VENDOR)/etc/device_features/olivelite.xml \
+    vendor/miuicamera/common/proprietary/etc/device_features/olivewood.xml:$(TARGET_COPY_OUT_VENDOR)/etc/device_features/olivewood.xml
+endif
+
 PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0 \
     android.hardware.camera.provider@2.4-impl \
