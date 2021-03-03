@@ -1,3 +1,4 @@
 # zram
 r_dir_file(system_app sysfs_zram)
 
+allow system_app proc_vmallocinfo:file r_file_perms;
