@@ -1,3 +1,7 @@
+# All unpinned blobs (except camera) below are extracted from Nokia/Panther_00WW/PAN_sprout:11/RKQ1.200928.002
+# Olivewood Package version - from olivewood-user-10-QKQ1.191014.001-V12.0.1.0.QCQIDXM-release-keys
+# Olive Package version: Xiaomi/olive/olive:10/QKQ1.191014.001/V12.5.1.0.QCNCNXM:user/release-keys
+# Nokia Package version - from Nokia/Panther_00WW/PAN_sprout:11/RKQ1.200928.002
 
 # ADSP
 vendor/bin/adsprpcd
