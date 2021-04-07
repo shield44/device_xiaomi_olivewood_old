@@ -12,6 +12,7 @@ vendor.audio.pp.asphere.enabled=false
 vendor.audio.safx.pbe.enabled=true
 vendor.audio.tunnel.encode=false
 vendor.audio.use.sw.alac.decoder=true
+vendor.fastrpc.disable.adsprpcd_sensorspd.daemon=1
 vendor.audio.use.sw.ape.decoder=true
 vendor.audio_hal.period_size=192
 vendor.voice.conc.fallbackpath=deep-buffer
