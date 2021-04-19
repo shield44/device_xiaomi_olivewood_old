@@ -27,9 +27,6 @@
 // skips conn update at conn completion
 #define BTA_BLE_SKIP_CONN_UPD  FALSE
 #define BLE_PERIPHERAL_ADV_NAME  FALSE
-#define BTM_SCO_ENHANCED_SYNC_ENABLED FALSE
 
 #define BTA_DISABLE_DELAY 1000 /* in milliseconds */
-#define BTM_WBS_INCLUDED TRUE
-#define BTIF_HF_WBS_PREFERRED TRUE
 #endif
