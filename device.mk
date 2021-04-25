@@ -258,14 +258,12 @@ PRODUCT_PACKAGES += \
     init.qcom.sdio.sh \
     init.qcom.sensors.sh \
     init.qcom.sh \
-    init.qcom.usb.sh \
     init.qti.can.sh \
     init.qti.qseecomd.sh \
     qca6234-service.sh \
     init.msm.usb.configfs.rc \
     init.qcom.factory.rc \
     init.qcom.rc \
-    init.qcom.usb.rc \
     init.target.rc \
     ueventd.qcom.rc
 
@@ -319,6 +317,13 @@ PRODUCT_BOOT_JARS += \
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service
+
+PRODUCT_PACKAGES += \
+    init.qcom.usb.rc \
+    init.qcom.usb.sh
+
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/qcom/opensource/usb/etc
 
 # Vulkan
 PRODUCT_PACKAGES += \
