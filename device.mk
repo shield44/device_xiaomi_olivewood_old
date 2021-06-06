@@ -305,10 +305,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
 
-# Perf
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.perf@2.2.vendor
-
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
@@ -331,7 +327,8 @@ PRODUCT_PACKAGES += \
 # QTI Common
 TARGET_COMMON_QTI_COMPONENTS := \
     vibrator \
-    bt
+    bt \
+    perf
 
 # Ramdisk
 PRODUCT_PACKAGES += \
