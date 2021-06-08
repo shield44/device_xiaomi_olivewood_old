@@ -325,6 +325,10 @@ PRODUCT_PACKAGES += \
     libjson \
     libqti_vndfwk_detect
 
+# QTI Common
+TARGET_COMMON_QTI_COMPONENTS := \
+    vibrator
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
@@ -386,11 +390,6 @@ PRODUCT_COPY_FILES += \
 # USB HAL
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic
-
-# Vibrator
-PRODUCT_PACKAGES += \
-    android.hardware.vibrator@1.0-impl \
-    android.hardware.vibrator@1.0-service
 
 # Vulkan
 PRODUCT_PACKAGES += \
