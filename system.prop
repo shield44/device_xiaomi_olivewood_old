@@ -116,4 +116,6 @@ ro.config.sdha_apps_bg_min=8
 # Smoothens UI
 persist.service.lgospd.enable=0
 persist.service.pcsync.enable=0
->>>>>>> a4cc166... Olivewood: Added few props for performance
+
+# Shutdown
+ro.build.shutdown_timeout=2
