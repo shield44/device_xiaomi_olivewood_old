@@ -117,5 +117,9 @@ ro.config.sdha_apps_bg_min=8
 persist.service.lgospd.enable=0
 persist.service.pcsync.enable=0
 
+# UI
+PRODUCT_PROPERTY_OVERRIDES += \
+sys.use_fifo_ui=1
+
 # Shutdown
 ro.build.shutdown_timeout=2
