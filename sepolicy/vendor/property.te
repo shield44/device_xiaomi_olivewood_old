@@ -1,3 +1,6 @@
+# Insmod
+type vendor_device_prop, property_type;
+
 # Sensor
 type cts_sensor_prop, property_type;
 

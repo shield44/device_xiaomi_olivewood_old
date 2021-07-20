@@ -4,3 +4,6 @@ type camera_socket, file_type, data_file_type;
 # Huaqin
 type huaqin_sysfs, fs_type, sysfs_type;
 
+# Insmod
+type sysfs_msm_boot, fs_type, sysfs_type;
+type debugfs_ipc, fs_type, debugfs_type;

@@ -45,6 +45,9 @@ on init
     symlink /sdcard /mnt/sdcard
     symlink /sdcard /storage/sdcard0
 
+    # Loading kernel modules in background
+    start insmod_sh
+
     # Create cgroup mount point for memory
     mkdir /sys/fs/cgroup/memory/bg 0750 root system
     write /sys/fs/cgroup/memory/bg/memory.swappiness 140
@@ -57,11 +60,21 @@ on init
     write /proc/sys/vm/page-cluster 0
 
 on post-fs
+    # Set RLIMIT_MEMLOCK to 64MB
+    setrlimit 8 67108864 67108864
     chmod 0755 /sys/kernel/debug/tracing
 
+on late-fs
+    # Start services for bootanim
+    start surfaceflinger
+    start bootanim
+    start vendor.hwcomposer-2-1
+    start vendor.configstore-hal
+    start vendor.qti.hardware.display.allocator
+
 on early-boot
-    # set RLIMIT_MEMLOCK to 64MB
-    setrlimit 8 67108864 67108864
+    # Wait for devices
+    wait_for_prop vendor.all.devices.ready 1
     # Allow subsystem (modem etc) debugging
     write /sys/kernel/boot_adsp/boot 1
     write /sys/kernel/boot_cdsp/boot 1
@@ -528,6 +541,13 @@ on property:sys.boot_completed=1
 on property:ro.data.large_tcp_window_size=true
     # Adjust socket buffer to enlarge TCP receive window for high bandwidth (e.g. DO-RevB)
     write /proc/sys/net/ipv4/tcp_adv_win_scale  2
+
+service insmod_sh /vendor/bin/init.insmod.sh /vendor/etc/init.insmod.cfg
+    class main
+    user root
+    group root system
+    disabled
+    oneshot
 
 service charger /system/bin/charger
     class charger

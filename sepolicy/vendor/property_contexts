@@ -5,6 +5,9 @@ camera.sensor.             u:object_r:camera_prop:s0
 persist.vendor.camera.     u:object_r:camera_prop:s0
 vendor.camera.             u:object_r:camera_prop:s0
 
+# Insmod
+vendor.all.devices.ready
+
 # Net
 persist.net.doxlat         u:object_r:vendor_xlat_prop:s0
 
