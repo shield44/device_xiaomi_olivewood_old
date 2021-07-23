@@ -392,6 +392,10 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/qcom-caf/msm8996/media \
     hardware/qcom-caf/msm8996-los/audio
 
+# Service Tracker
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.servicetracker@1.2
+
 # Tethering
 PRODUCT_PACKAGES += \
     TetheringConfigOverlay
