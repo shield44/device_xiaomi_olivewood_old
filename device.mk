@@ -394,7 +394,8 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Service Tracker
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.servicetracker@1.2
+    vendor.qti.hardware.servicetracker@1.2 \
+    vendor.qti.hardware.servicetracker@1.2.vendor
 
 # Tethering
 PRODUCT_PACKAGES += \
