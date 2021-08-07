@@ -1,5 +1,5 @@
 #
-# system.prop for sakura
+# system.prop for olivewood
 #
 
 # ART
@@ -59,23 +59,16 @@ PRODUCT_PROPERTY_OVERRIDES += \
 ro.kernel.ebpf.supported=true
 
 # Camera
-PRODUCT_PROPERTY_OVERRIDES += \
-vidc.enc.dcvs.extra-buff-count=2 \
-media.camera.ts.monotonic=1 \
-persist.vendor.camera.display.lmax=1280x720 \
-persist.vendor.camera.display.umax=1920x1080 \
-vendor.camera.lowpower.record.enable=1 \
-vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.huaqin.factory,com.mi.AutoTest \
-vendor.camera.aux.packagelist2=com.android.systemui,com.huaqin.cameraautotest,com.huaqin.runtime \
-vendor.camera.aux.packageexcludelist=com.discord \
-persist.vendor.qti.telephony.vt_cam_interface=2 \
-persist.vendor.camera.dual.camera=0 \
-persist.vendor.camera.eis.enable=1 \
-persist.vendor.camera.gyro.disable=0 \
-persist.vendor.camera.isp.clock.optmz=0 \
-persist.vendor.camera.stats.test=5 \
-persist.vendor.camera.CDS=off \
-persist.camera.HAL3.enabled=1
+persist.camera.privapp.list=org.codeaurora.snapcam
+persist.sys.camera.camera2=true
+persist.vendor.camera.display.lmax=1280x720
+persist.vendor.camera.display.umax=1920x1080
+persist.vendor.camera.privapp.list=org.codeaurora.snapcam
+persist.vendor.camera.stats.test=5
+vendor.camera.aux.packagelist1=com.huaqin.cameraautotest,com.xiaomi.cameratools,com.android.camera
+vendor.camera.aux.packagelist2=com.mi.AutoTest
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.qualcomm.qti.qmmi,com.huaqin.factory,com.westalgo.calibration
+vendor.camera.hal1.packagelist=com.skype.raider,com.google.android.talk
 
 # Charger
 PRODUCT_PRODUCT_PROPERTIES += \
@@ -130,10 +123,6 @@ drm.service.enabled=true
 # Enable QC2 bufferqueue block-pool
 PRODUCT_PROPERTY_OVERRIDES += \
 vendor.qc2.use.bqpool=1
-
-# Fingerprint
-PRODUCT_PROPERTY_OVERRIDES += \
-persist.qfp=false
 
 # Fm
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -221,6 +210,10 @@ service.qti.ims.enabled=1 \
 persist.vendor.vt.supported=1 \
 persist.vendor.sys.cnd.iwlan=1 \
 persist.vendor.cne.logging.qxdm=3974
+
+# Sensor
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.vendor.sensors.pseudo_gyro=true
 
 # SurfaceFlinger
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \

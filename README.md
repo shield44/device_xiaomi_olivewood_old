@@ -1,24 +1,30 @@
-# Device Tree for Xiaomi Redmi 6 Pro (sakura)
+Copyright (C) 2021 - The LineageOS Project
 
-## Spec Sheet
+  Device tree for Xiaomi Redmi 8A Dual (_olivewood_)
+  ==============
+ 
+  The Xiaomi Redmi 8A Dual (codenamed "Olivewood") is an 
+budget smartphone from Xiaomi.
+ 
+  It was announced and released in May 2020.
+ 
+  ## Device specifications
+ 
+  Basic | Spec Sheet
+ -------:|:-------------------------
+ SoC | Qualcomm MSM8937 Snapdragon 439
+ CPU | Octa core (2.0 GHz)
+ GPU | Adreno 505
+ Memory | 2/3/4 GB RAM
+ Shipped Android Version | 9.0
+ Storage | 16/32/64 GB
+ MicroSD | Up to 512 GB (dedicated slot)
+ Battery | Non-removable Li-Polymer 5000 mAh battery
+ Dimensions | 146.3 x 70.4 x 9.6 mm
+ Display | 720 x 1440 pixels, 18:9 ratio, 5.45 inches (~295 ppi density)
+ Rear camera | 12 MP, f/2.2, 1.25 μm , PDAF
+ Front camera | 5 MP, f/2.2      
+ 
 
-| Feature                 | Specification                     |
-| :---------------------- | :-------------------------------- |
-| CPU                     | Octa-core 2.0 GHz Cortex-A53      |
-| Chipset                 | Qualcomm MSM8953 Snapdragon 625   |
-| GPU                     | Adreno 506                        |
-| Memory                  | 3/4 GB                            |
-| Shipped Android Version | 8.1.0                             |
-| Storage                 | 32/64 GB                          |
-| MicroSD                 | Up to 256 GB                      |
-| Battery                 | 4000 mAh (non-removable)          |
-| Dimensions              | 149.3 x 71.7 x 8.8 mm             |
-| Display                 | 1080 x 2280 pixels (~432 ppi)     |
-| Rear Camera             | 12 MP, f/2.2, 1.25 μm, PDAF       |
-|                         | 5 MP, f/2.2, 1.12 μm, depth sensor|
-| Front Camera            | 5 MP, f/2.0                       |
-| Announced Date          | July 2018                         |
-
-## Device Picture
-
-![Xiaomi Redmi 6 Pro](https://i01.appmifile.com/webfile/globalimg/7/837ABAFC-3F64-B2D6-CC34-AE70DEEA9704.png "Xiaomi Redmi 6 Pro")
+  ## Device picture
+  ![ Redmi 8A Dual ](https://bsmedia.business-standard.com/_media/bs/img/article/2020-02/11/full/1581413090-1273.jpg "Xiaomi Redmi 8A Dual")
