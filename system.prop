@@ -43,12 +43,11 @@ ro.surface_flinger.set_idle_timer_ms=9000
 ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 vendor.display.disable_skip_validate=1
 
-#GBoard
+# GBoard
 ro.com.google.ime.kb_pad_port_b=1
 
 # Power saving
 power.saving.mode=1
-pm.sleep_mode=1
 
 # Media
 media.stagefright.thumbnail.prefer_hw_codecs=true
@@ -88,7 +87,6 @@ ril.subscription.types=NV,RUIM
 ro.telephony.default_network=22,22
 telephony.lteOnCdmaDevice=1
 ro.vold.umsdirtyratio=20
-ro.ril.disable.power.collapse=0
 
 # Screen density
 ro.sf.lcd_density=360
@@ -118,7 +116,6 @@ persist.service.lgospd.enable=0
 persist.service.pcsync.enable=0
 
 # UI
-PRODUCT_PROPERTY_OVERRIDES += \
 sys.use_fifo_ui=1
 
 # Shutdown
