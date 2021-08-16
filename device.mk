@@ -364,7 +364,9 @@ PRODUCT_COPY_FILES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/qcom-caf/msm8996
+    hardware/qcom-caf/msm8996/display \
+    hardware/qcom-caf/msm8996/media \
+    hardware/qcom-caf/msm8996-los/audio
 
 # Thermal
 PRODUCT_COPY_FILES += \
