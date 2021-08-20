@@ -162,9 +162,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/gps/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf
 
 # HALS
-SRC_AUDIO_HAL_DIR := hardware/qcom-caf/msm8996-los/audio
-SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/msm8996/display
-SRC_MEDIA_HAL_DIR := hardware/qcom-caf/msm8996/media
+SRC_AUDIO_HAL_DIR := hardware/qcom-caf/msm8996-r/audio
+SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/msm8996-r/display
+SRC_MEDIA_HAL_DIR := hardware/qcom-caf/msm8996-r/media
 
 # Health HAL
 PRODUCT_PACKAGES += \
@@ -372,9 +372,9 @@ PRODUCT_COPY_FILES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/qcom-caf/msm8996/display \
-    hardware/qcom-caf/msm8996/media \
-    hardware/qcom-caf/msm8996-los/audio
+    hardware/qcom-caf/msm8996-r/display \
+    hardware/qcom-caf/msm8996-r/media \
+    hardware/qcom-caf/msm8996-r/audio
 
 # Tethering
 PRODUCT_PACKAGES += \

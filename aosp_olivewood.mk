@@ -21,10 +21,14 @@ $(call inherit-product, device/xiaomi/olivewood/device.mk)
 # Inherit some LineageOS stuff.
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+
+#PEX
+PEX_BUILD_TYPE := OFFICIAL
+PEX_MAINTAINER := sdm439dev
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_olivewood
+PRODUCT_NAME := aosp_olivewood
 PRODUCT_DEVICE := olivewood
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 8A/8A Dual
