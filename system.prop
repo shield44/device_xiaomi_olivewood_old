@@ -89,7 +89,7 @@ telephony.lteOnCdmaDevice=1
 ro.vold.umsdirtyratio=20
 
 # Screen density
-ro.sf.lcd_density=360
+ro.sf.lcd_density=420
 
 # WFD
 persist.debug.wfd.enable=1
