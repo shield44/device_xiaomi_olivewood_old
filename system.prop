@@ -91,7 +91,7 @@ ro.vold.umsdirtyratio=20
 ro.ril.disable.power.collapse=0
 
 # Screen density
-ro.sf.lcd_density=360
+ro.sf.lcd_density=420
 
 # WFD
 persist.debug.wfd.enable=1
