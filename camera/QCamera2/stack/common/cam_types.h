@@ -1018,6 +1018,8 @@ typedef struct {
     uint32_t blur_level;
     uint32_t blur_min_value;
     uint32_t blur_max_value;
+
+    uint32_t xiaomi_reserved[2];
 } cam_rtb_blur_info_t;
 
 typedef struct  {

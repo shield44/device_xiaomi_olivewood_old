@@ -172,7 +172,7 @@ int main() {
     PRINT(CAM_INTF_PARM_DIS_ENABLE,    pMetadata);
 
     PRINT(XIAOMI_01,    pMetadata);
-    
+
     PRINT(CAM_INTF_PARM_LED_MODE,    pMetadata);
     PRINT(CAM_INTF_META_LED_MODE_OVERRIDE,    pMetadata);
     PRINT(CAM_INTF_PARM_RELATED_SENSORS_CALIBRATION,    pMetadata);
@@ -317,6 +317,7 @@ int main() {
     PRINT(CAM_INTF_META_SEND_IMMEDIATELY,    pMetadata);
     
     printf("\ncam_capability_t size: %d", sizeof(cam_capability_t));
+    printf("\nmetadata_buffer_t size: %d", sizeof(metadata_buffer_t));
 
     dlclose(handle);
     return 0;
