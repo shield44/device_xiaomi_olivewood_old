@@ -313,6 +313,8 @@ int main() {
     PRINT(CAM_INTF_PARM_CLOSE_HINT,    pMetadata);
     PRINT(CAM_INTF_META_SEND_IMMEDIATELY,    pMetadata);
 
+    PRINT(XIAOMI_01,    pMetadata);
+
     dlclose(handle);
     return 0;
 }

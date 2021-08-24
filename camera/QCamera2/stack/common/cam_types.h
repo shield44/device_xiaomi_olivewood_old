@@ -1389,7 +1389,7 @@ typedef struct {
 typedef struct {
     uint32_t frame_id;                         /* frame index of which faces are detected */
     uint8_t num_faces_detected;                /* number of faces detected */
-    cam_face_detection_info_t faces[MAX_ROI];  /* detailed information of faces detected */
+    cam_face_detection_info_t faces[MAX_ROI + 5];  /* detailed information of faces detected */
     qcamera_face_detect_type_t fd_type;        /* face detect for preview or snapshot frame*/
     cam_dimension_t fd_frame_dim;              /* frame dims on which fd is applied */
     uint8_t update_flag;                       /* flag to inform whether HAL needs to send cb
@@ -2119,7 +2119,7 @@ typedef enum {
     CAM_INTF_PARM_DIS_ENABLE,
 
     XIAOMI_01,
-    
+
     CAM_INTF_PARM_LED_MODE,
     CAM_INTF_META_HISTOGRAM,
     CAM_INTF_META_FACE_DETECTION,
