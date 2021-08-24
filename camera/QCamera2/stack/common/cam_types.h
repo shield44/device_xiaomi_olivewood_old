@@ -1394,7 +1394,6 @@ typedef struct {
     cam_dimension_t fd_frame_dim;              /* frame dims on which fd is applied */
     uint8_t update_flag;                       /* flag to inform whether HAL needs to send cb
                                                 * to app or not */
-    char xiaomi_reversed[15];
 } cam_face_detection_data_t;
 
 // definition of composite face detection data
