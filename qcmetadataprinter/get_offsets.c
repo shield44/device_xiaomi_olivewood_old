@@ -170,6 +170,9 @@ int main() {
     PRINT(CAM_INTF_PARM_AWB_LOCK,    pMetadata);
     PRINT(CAM_INTF_PARM_BESTSHOT_MODE,    pMetadata);
     PRINT(CAM_INTF_PARM_DIS_ENABLE,    pMetadata);
+
+    PRINT(XIAOMI_01,    pMetadata);
+    
     PRINT(CAM_INTF_PARM_LED_MODE,    pMetadata);
     PRINT(CAM_INTF_META_LED_MODE_OVERRIDE,    pMetadata);
     PRINT(CAM_INTF_PARM_RELATED_SENSORS_CALIBRATION,    pMetadata);
@@ -312,8 +315,8 @@ int main() {
     PRINT(CAM_INTF_META_TUNING_PARAMS,    pMetadata);
     PRINT(CAM_INTF_PARM_CLOSE_HINT,    pMetadata);
     PRINT(CAM_INTF_META_SEND_IMMEDIATELY,    pMetadata);
-
-    PRINT(XIAOMI_01,    pMetadata);
+    
+    printf("\ncam_capability_t size: %d", sizeof(cam_capability_t));
 
     dlclose(handle);
     return 0;
