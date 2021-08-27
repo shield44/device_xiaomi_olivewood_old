@@ -376,29 +376,20 @@ vendor/lib/vendor.qti.hardware.cvp@1.0.so
 vendor/lib64/vendor.qti.hardware.cvp@1.0.so
 
 # Camera
-lib64/libseemore.so
-vendor/lib/hw/camera.msm8937.so
-vendor/lib/libc++_shared.so
-vendor/lib/libcamera2ndk_vendor.so
 vendor/lib/libcamera_scene.so
 vendor/lib/libcapiv2svacnn.so
 vendor/lib/libcapiv2vop.so
 vendor/lib/libdepthmapwrapper.so
 vendor/lib/libflash_pmic.so
-vendor/lib/libhal_dbg.so
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
 vendor/lib/libmibokeh_439.so
-vendor/lib/libmm-qcamera.so
 vendor/lib/libmmcamera_sonyimx135_eeprom.so
 vendor/lib/libmmjpeg.so
-vendor/lib/libmmjpeg_interface.so
 vendor/lib/libmmlib2d_interface.so
 vendor/lib/libmmqjpegdma.so
 vendor/lib/libmmqjpeg_codec.so
-vendor/lib/libmpbase.so
-vendor/lib/libqomx_core.so
 vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libqomx_jpegenc_pipe.so
@@ -410,14 +401,7 @@ vendor/lib/libsymphony-cpu.so
 vendor/lib/libsymphonypower.so
 vendor/lib/libVDClearShot.so
 vendor/lib/libvideoutils.so
-vendor/lib/libXMFD_AgeGender.so
-vendor/lib/lib_lowlight.so
 vendor/lib/mibokeh_439_opencl.bin
-vendor/lib64/libcamera2ndk_vendor.so
-vendor/lib64/libcapiv2svacnn.so
-vendor/lib64/libcapiv2vop.so
-vendor/lib64/libseemore.so
-vendor/lib64/libswvdec.so
 vendor/lib64/libvideoutils.so
 
 # Camera-actuators
@@ -458,9 +442,6 @@ vendor/lib/libactuator_rohm_bu64243gwz.so
 # Camera-arcsoft
 vendor/lib/libarcsoft_beautyshot.so
 vendor/lib/libarcsoft_high_dynamic_range.so
-
-# Camera-bin
-vendor/bin/mm-qcamera-app
 
 # Camera-chromatix
 vendor/lib/libchromatix_csidtg_common.so
@@ -4880,7 +4861,6 @@ vendor/lib/libmmcamera_imx362_gt24c64a.so
 vendor/lib/libmmcamera_imx376.so
 vendor/lib/libmmcamera_imx378.so
 vendor/lib/libmmcamera_imx519.so
-vendor/lib/libmmcamera_interface.so
 vendor/lib/libmmcamera_irs1645.so
 vendor/lib/libmmcamera_isp_abf40.so
 vendor/lib/libmmcamera_isp_bcc40.so
