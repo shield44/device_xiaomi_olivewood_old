@@ -27,4 +27,4 @@ budget smartphone from Xiaomi.
  
 
   ## Device picture
-  ![ Redmi 8A Dual ](https://bsmedia.business-standard.com/_media/bs/img/article/2020-02/11/full/1581413090-1273.jpg "Xiaomi Redmi 8A Dual")
+  ![ Redmi 8A Dual ](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZQrPB4jZlypBgGYiOLh2awdrciamzJ7vGNQ&usqp=CAU "Xiaomi Redmi 8A Dual")
