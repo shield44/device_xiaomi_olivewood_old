@@ -167,49 +167,31 @@ system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 
 # Camera - from olive-user 10 QKQ1.191014.001 V12.0.1.0.QCNMIXM release-keys
 lib64/libseemore.so|3ab4199cd66f857ba5cd0ada71d6d959509c3f7f
-product/lib/vendor.qti.hardware.camera.device@1.0.so|9724812afef8c6ace95686c51a4f865d6f83d0bb
-product/lib64/vendor.qti.hardware.camera.device@1.0.so|c09458fe506e08861bc3485ec0d3ce9a6f506035
-vendor/lib/hw/camera.msm8937.so|8ca04828df0a9ce72f02786f214f418387db436b
-vendor/lib/libc++_shared.so|1ec35a25d92cfc44994d696c2c1f623106888687
-vendor/lib/libcamera2ndk_vendor.so|50911b3e83c9b613dd06d51f693a889a92c1216e
 vendor/lib/libcamera_scene.so|601b3de8c98f4770d384908b6841e24b3d4d1de2
 vendor/lib/libcapiv2svacnn.so|cae9cfeb6a54cc756a02e69f89aee046bbd3d85d
 vendor/lib/libcapiv2vop.so|70b13be129c5fd97b2c262add5fde35d637f54ae
 vendor/lib/libdepthmapwrapper.so|a5bfc28d6ef226205fa6316d9ec751c89284c2d2
 vendor/lib/libflash_pmic.so|29ac56d6ac4d094b8211531a4f87b94a24cd7e9e
-vendor/lib/libhal_dbg.so|c91f909923711b3c2738f260c59955345a6dc74c
 vendor/lib/libjpegdhw.so|359c41f97b41fa79db48cdc679e15583087570a0
 vendor/lib/libjpegdmahw.so|3324de8abdac11c37a386244f3bc405074bca4ab
 vendor/lib/libjpegehw.so|acd93e35d20aef568a0cf99b17ef4f271385a266
 vendor/lib/libmibokeh_439.so|c63c30a205f638475e2740376e46af9e67422f73
-vendor/lib/libmm-qcamera.so|1abb26ebe45835ba70a8c670582ae6cca62b28b2
 vendor/lib/libmmcamera_sonyimx135_eeprom.so|cdb343eda675c6353525d37df8873874458c52d1
 vendor/lib/libmmjpeg.so|e0e7df5971c524f17a67cc03896900c2bd911e65
-vendor/lib/libmmjpeg_interface.so|db56d96de215425b4dc1df549e1d8ac430ca18e0
 vendor/lib/libmmlib2d_interface.so|815593e9745152dc9052dc82ccdaff5c6f08dc5c
 vendor/lib/libmmqjpegdma.so|2d426a41e8c8a051887727bb3a25668fa398cf7c
 vendor/lib/libmmqjpeg_codec.so|965bce85370ebe9ac50376318ea682df69598bb0
-vendor/lib/libmpbase.so|431479c51fe23e1def5e8e50aea34975f19ba41a
-vendor/lib/libqomx_core.so|495da95144c1e5d79ba6f1c273b3cad457ec98a8
 vendor/lib/libqomx_jpegdec.so|dc6e6b70d99cf280194fb5177d21445ab4d6c6da
 vendor/lib/libqomx_jpegenc.so|60324f3acdb4fbe2df2c8911ed9b72d2f2cb416d
 vendor/lib/libqomx_jpegenc_pipe.so|b59ad7c0f91e3e277eda5cc5d513831351b8e8e0
 vendor/lib/libremosaic_daemon.so|daf6f97688d10412ecb186b801fd27d6f89a0266
-vendor/lib/libseemore.so|cd207541c3cdd97eb25ef2a9c63662054393e81f
 vendor/lib/libSNPE.so|5eee96ad6afc3e7713887c05df068fafb061a40d
 vendor/lib/libswvdec.so|0d2e01a3dbdf10dd7204fb9c6db69abe6838c888
 vendor/lib/libsymphony-cpu.so|e76a716e987bed25ef1b62d0a31ad5bdadef4859
 vendor/lib/libsymphonypower.so|3b9f67624461b2817c8ac66f147bbdaad0eef0d4
 vendor/lib/libVDClearShot.so|6a87050ee70ccb923cda3ab6bc6a704ce7fcd941
 vendor/lib/libvideoutils.so|71175537b9587c0ba4ded04ec96877d3c4ebe1ea
-vendor/lib/libXMFD_AgeGender.so|88654968974e4aba6c7b74346eb69ff543997047
-vendor/lib/lib_lowlight.so|49986d156e8b005d51d2062bd608744ec1b25796
 vendor/lib/mibokeh_439_opencl.bin|d6309742ae963133d649a5f38fb37ba3e030e3d4
-vendor/lib64/libcamera2ndk_vendor.so|4d59b1a236d85704cb762ae9e0e8630f45caa07b
-vendor/lib64/libcapiv2svacnn.so|0741c3911930b3cdf8b2670d33bdbeda5bd6eedd
-vendor/lib64/libcapiv2vop.so|c912ee6d56b6e80faf280979b303267086d0b0e5
-vendor/lib64/libseemore.so|3ab4199cd66f857ba5cd0ada71d6d959509c3f7f
-vendor/lib64/libswvdec.so|bd2ce304bff36d4dc92370a29a82703f3c57151a
 vendor/lib64/libvideoutils.so|4c5b876a24f0a202e2a0b0895b3646bc3db8dd2c
 
 # Camera-actuators
@@ -250,9 +232,6 @@ vendor/lib/libactuator_rohm_bu64243gwz.so
 # Camera-arcsoft
 vendor/lib/libarcsoft_beautyshot.so
 vendor/lib/libarcsoft_high_dynamic_range.so
-
-# Camera-bin
-vendor/bin/mm-qcamera-app
 
 # Camera-chromatix
 vendor/lib/libchromatix_csidtg_common.so
@@ -4672,7 +4651,6 @@ vendor/lib/libmmcamera_imx362_gt24c64a.so
 vendor/lib/libmmcamera_imx376.so
 vendor/lib/libmmcamera_imx378.so
 vendor/lib/libmmcamera_imx519.so
-vendor/lib/libmmcamera_interface.so
 vendor/lib/libmmcamera_irs1645.so
 vendor/lib/libmmcamera_isp_abf40.so
 vendor/lib/libmmcamera_isp_bcc40.so
@@ -4838,32 +4816,6 @@ vendor/lib64/libmmcamera_faceproc.so
 vendor/lib64/libmmcamera_faceproc2.so
 vendor/lib64/libmmcamera_tintless_algo.so
 vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
-
-# Camera-Hardware - from olive-user-10-QKQ1.191014.001-V12.0.1.0.QCNMIXM-release-keys
-vendor/bin/hw/android.hardware.camera.provider@2.4-service|c081207fa6f78654457dc87c20fb405d3b8ba99a
-vendor/etc/init/android.hardware.camera.provider@2.4-service.rc|655b17a43029e65318a38dbfa9183f7d2621679f
-vendor/lib/android.hardware.camera.provider@2.4-external.so|3132a9c78441fc35df7b013324888ddac7e83629
-vendor/lib/android.hardware.camera.provider@2.4-legacy.so|91687da65a87b6f0802cf2601d54a39a1553f824
-vendor/lib/camera.device@1.0-impl.so|76fe465533598f7c6f34c1d54a327b90832187ec
-vendor/lib/camera.device@3.2-impl.so|ec42fadb6380048cc264cc52b386d355ffe81d1b
-vendor/lib/camera.device@3.3-impl.so|8b67d95bf0d372212731d6dd956ad31a41f83aed
-vendor/lib/camera.device@3.4-external-impl.so|2db653ea562706a89ecfeb6cdbaf95fdd28bcf2a
-vendor/lib/camera.device@3.4-impl.so|f18bd198beb7baff89bb4375757a7dcc4cd59639
-vendor/lib/camera.device@3.5-external-impl.so|1e6b6f102dcb2bf9f7fca4fb212e0fb235f8d03d
-vendor/lib/camera.device@3.5-impl.so|c6f47ba49157e826a1a122b4a1e1a984f71d37c3
-vendor/lib/vendor.qti.hardware.camera.device@1.0.so|19b9fbb8fbb53ef3445974e61e9b5d3e4705151e
-vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so|0e81ac3de944e30ffd93e8264e7b4264d8fac90b
-vendor/lib64/android.hardware.camera.provider@2.4-external.so|d08bbf159014b0617b42aa4ebf08db8c2a3f3d94
-vendor/lib64/android.hardware.camera.provider@2.4-legacy.so|6dfb731c2fc65d1586eef324676307b4d57ef282
-vendor/lib64/camera.device@1.0-impl.so|609cfe670b19e68daf00e3f17dacc877eb73a172
-vendor/lib64/camera.device@3.2-impl.so|4588fc89409727601200bf2837e5f4c1fbdbddcc
-vendor/lib64/camera.device@3.3-impl.so|943bac0d22ee097eacf7f336033dc3262468873c
-vendor/lib64/camera.device@3.4-external-impl.so|b7034e3baef08339b52fc43724cd5ec36c7ee73d
-vendor/lib64/camera.device@3.4-impl.so|62c9f7405f2caf7bde7d23e5944863318d3cb4b5
-vendor/lib64/camera.device@3.5-external-impl.so|96106bbbe4fd473ac0c3423e3b74c5824bbf7033
-vendor/lib64/camera.device@3.5-impl.so|583d9942e7479e176a2c4c6020acc7c123784fea
-vendor/lib64/vendor.qti.hardware.camera.device@1.0.so|5618109f3b5aa0e4d84e4b3d4896d9dab123f446
-vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so|8df2eba97fbd4b19d05572f90ba6b999cdf7b6f2
 
 # CDSP - from LA.UM.9.6.2.r1-03600-89xx.0
 vendor/bin/cdsprpcd|a1b4c35ffdef184cc1334f3d1cf4fa56546d3621
