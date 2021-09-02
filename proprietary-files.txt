@@ -5214,12 +5214,12 @@ vendor/lib64/libvpplibrary.so|0308510be8b2ea4cb8ba7278ad249eea53f3fb2c
 vendor/lib/libwms.so|577d673e8eb38ccf33bd2d70115ad78b695e6ac1
 vendor/lib64/libwms.so|7d1440beacdc07280804d18f859b1274bb545783
 
-# Perf - from Nokia/Panther_00WW/PAN_sprout:11/RKQ1.200928.002/00WW_3_150:user/release-keys
+# Perf - from LA.UM.9.6.2.r1-03600-89xx.0
 system_ext/lib/libqti-perfd-client_system.so|6061ece92e6fac3fb826727d87415f2eeb4fb930
 system_ext/lib64/libqti-perfd-client_system.so|4a7c8b57349c178b0cef6c13e638fddbb7edbee4
-vendor/bin/hw/vendor.qti.hardware.perf@2.2-service|2e3be88cad2d9b9aa4edc8e68ad5f4d4e7eeaedc
+vendor/bin/hw/vendor.qti.hardware.perf@2.1-service|2e3be88cad2d9b9aa4edc8e68ad5f4d4e7eeaedc
 vendor/bin/msm_irqbalance|0e967f5c7eaf8d863a50996459101be47adf96a2
-vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc|08e8a987b9011d2475c5ed0132cd422a899d8235
+vendor/etc/init/vendor.qti.hardware.perf@2.1-service.rc|08e8a987b9011d2475c5ed0132cd422a899d8235
 vendor/etc/perf/commonresourceconfigs.xml|c8c817a41b378b5a3d76cc8240a4bec8bdc093ae
 vendor/etc/perf/perfboostsconfig.xml|4d8d54dc69391e17b59c016722e44094114acc83
 vendor/etc/perf/perfconfigstore.xml|864d62fa293686d52b14e359f09c9d106810ce60
