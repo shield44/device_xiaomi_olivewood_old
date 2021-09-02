@@ -5646,12 +5646,20 @@ vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc|61c3a782b65dccba0f61f00
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|2396c3cb39d76bd60b375195a9a08ca94659d60a
 vendor/lib64/vendor.qti.hardware.soter@1.0.so|b08f0d2e92e0adce42127b5f978fa6bb22326ce1
 
-# Thermal - from Onclite PKQ1.181021.001/V10.2.5.0.PFLCNXM
-vendor/bin/thermal-engine|562035759ae60b3c5267a01293f1aeaa3f40c44b
--vendor/lib/libthermalclient.so|241d1e751b3a96c67ac5b618ef38bb39d2a94fa7
--vendor/lib64/libthermalclient.so|54121e31e4a5170f8c50e36ddb57685b6c538a21
-vendor/lib/libthermalfeature.so|1f1eb616ba26b309a2fda7de40c2163a4acaaa35
-vendor/lib64/libthermalfeature.so|829b2fc0aa8c863d4b4b331e0a2c00663e01efe6
+# Thermal-configs
+vendor/etc/thermal-engine-camera.conf
+vendor/etc/thermal-engine-high.conf
+vendor/etc/thermal-engine-map.conf
+vendor/etc/thermal-engine-nolimits.conf
+vendor/etc/thermal-engine-normal.conf
+vendor/etc/thermal-engine-sgame.conf
+vendor/etc/thermal-engine.conf
+
+# Thermal - from olive-user 10 QKQ1.191014.001 V12.0.1.0.QCNMIXM release-keys
+vendor/bin/thermal-engine|633b9cff05ba176a18101bdfc03ecacc98e1e0f0
+vendor/lib/libthermalclient.so|8837ba9f8f43d4cfbec00d8055fef4c9a7434931
+vendor/lib64/libthermalclient.so|148421212c4b2d3bcb37cb08f9542d3286f008c1
+vendor/lib64/libthermalfeature.so|1c408911610e5b6a11853aff1900860f9e9a861f
 
 # Time services - from LA.UM.9.6.2.r1-03600-89xx.0
 -vendor/app/TimeService/TimeService.apk|1a5f39aa2969feee50ff81ec870b5e2669ae515e
