@@ -1272,7 +1272,7 @@
     <path name="speaker">
 	<ctl name="MI2S_RX Channels" value="One" />
         <ctl name="RX3 MIX1 INP1" value="RX1" />
-        <ctl name="RX3 Digital Volume" value="83" />
+        <ctl name="RX3 Digital Volume" value="84" />
         <ctl name="LINE_OUT" value="Switch" />
         <ctl name="Ext Spk Switch" value="On" />
     </path>
@@ -1316,7 +1316,7 @@
     <path name="handset">
         <ctl name="RX1 MIX1 INP1" value="RX1" />
         <ctl name="RDAC2 MUX" value="RX1" />
-        <ctl name="RX1 Digital Volume" value="84" />
+        <ctl name="RX1 Digital Volume" value="83" />
         <ctl name="EAR PA Gain" value="POS_6_DB" />
         <ctl name="EAR_S" value="Switch" />
     </path>
@@ -1328,10 +1328,6 @@
 
     <path name="sub-mic">
         <path name="adc3" />
-    </path>
-
-    <path name="handfree-sub-mic">
-        <path name="sub-mic" />
     </path>
 
     <path name="headphones">
@@ -1381,7 +1377,7 @@
 
     <path name="sidetone-handset">
         <path name="sidetone-iir" />
-        <ctl name="IIR1 INP1 Volume" value="53" />
+        <ctl name="IIR1 INP1 Volume" value="43" />
         <ctl name="RX1 MIX2 INP1" value="IIR1" />
     </path>
 
@@ -1390,7 +1386,7 @@
         <path name="sidetone-iir" />
         <ctl name="RX1 MIX2 INP1" value="IIR1" />
         <ctl name="RX2 MIX2 INP1" value="IIR1" />
-        <ctl name="IIR1 INP1 Volume" value="53" />
+        <ctl name="IIR1 INP1 Volume" value="85" />
         -->
     </path>
 
@@ -1482,6 +1478,11 @@
 
     <path name="dmic-endfire">
         <path name="speaker-dmic-endfire" />
+        <ctl name="IIR1 INP1 MUX" value="DEC1" />
+    </path>
+
+    <path name="handset-dmic-fvasm">
+        <path name="dmic-endfire" />
     </path>
 
     <path name="voice-dmic-ef-tmus">
