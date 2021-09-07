@@ -29,6 +29,9 @@ TARGET_NO_BOOTLOADER := true
 # APEX
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := olivewood,olivelite
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
