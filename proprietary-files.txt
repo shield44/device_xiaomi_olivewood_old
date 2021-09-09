@@ -5063,19 +5063,6 @@ vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 # Charger
 vendor/bin/hvdcp_opti
 
-# Configstore
--system_ext/framework/vendor.qti.hardware.capabilityconfigstore-V1.0-java.jar
-system_ext/lib/vendor.qti.hardware.capabilityconfigstore@1.0.so
-system_ext/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so
-vendor/bin/hw/android.hardware.configstore@1.1-service
-vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service
-vendor/etc/init/android.hardware.configstore@1.1-service.rc
-vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc
-vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
-vendor/lib/vendor.qti.hardware.capabilityconfigstore@1.0.so
-vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so
-
 # DPM
 -framework/tcmclient.jar
 system_ext/bin/dpmd
@@ -6507,7 +6494,6 @@ vendor/bin/ftmtest
 vendor/bin/getconf
 vendor/bin/hal_proxy_daemon
 vendor/bin/hbtp_daemon
-vendor/bin/hw/capabilityconfigstoretest
 vendor/bin/hw/vendor.privileged_device@1.0-service
 vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service
 vendor/bin/hw/vendor.qti.hardware.servicetracker@1.2-service
