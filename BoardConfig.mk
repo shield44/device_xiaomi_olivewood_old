@@ -61,6 +61,9 @@ TARGET_COPY_OUT_VENDOR := vendor
 # FS CONFIG
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
+# FSTAB
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
+
 # HIDL
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
