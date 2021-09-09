@@ -121,6 +121,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapminfree=4m \
     dalvik.vm.heapstartsize=16m
 
+# FM
+PRODUCT_PACKAGES += \
+    FMRadio \
+    libfmjni
+
 # Keylayouts
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl
