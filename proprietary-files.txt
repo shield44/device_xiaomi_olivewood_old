@@ -5757,8 +5757,6 @@ vendor/lib64/vendor.display.postproc@1.0.so
 # QMI
 system_ext/etc/permissions/qti_libpermissions.xml
 system_ext/etc/permissions/qti_permissions.xml
-system_ext/etc/permissions/qti_telephony_hidl_wrapper.xml
-system_ext/etc/permissions/qti_telephony_utils.xml
 vendor/bin/irsc_util
 vendor/lib/libdiag.so
 vendor/lib/libdsutils.so
@@ -6351,8 +6349,6 @@ system_ext/etc/spn-conf.xml
 -system_ext/framework/ActivityExt.jar
 -system_ext/framework/com.qti.media.secureprocessor.jar
 -system_ext/framework/qmapbridge.jar
--system_ext/framework/qti-telephony-hidl-wrapper.jar
--system_ext/framework/qti-telephony-utils.jar
 -system_ext/framework/remotesimlockmanagerlibrary.jar
 -system_ext/framework/uimgbalibrary.jar
 -system_ext/framework/uimgbamanagerlibrary.jar
