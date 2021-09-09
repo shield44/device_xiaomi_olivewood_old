@@ -68,6 +68,10 @@ TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 # FSTAB
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
+# GPS
+USE_DEVICE_SPECIFIC_GPS := true
+TARGET_NO_RPC := true
+
 # HIDL
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
