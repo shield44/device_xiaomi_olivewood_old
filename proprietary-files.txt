@@ -385,7 +385,6 @@ vendor/lib/libcapiv2svacnn.so
 vendor/lib/libcapiv2vop.so
 vendor/lib/libdepthmapwrapper.so
 vendor/lib/libflash_pmic.so
-vendor/lib/libgui_vendor.so
 vendor/lib/libhal_dbg.so
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
