@@ -157,6 +157,9 @@ ENABLE_VENDOR_RIL_SERVICE := true
 # SELinux
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
 
+# Sepolicy - for olivewood
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
 # Treble
 PRODUCT_FULL_TREBLE_OVERRIDE := true
 BOARD_VNDK_VERSION := current
