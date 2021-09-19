@@ -36,10 +36,6 @@ PRODUCT_PACKAGES += \
     com.dsi.ant.antradio_library \
     AntHalService
 
-# Doze mode
-PRODUCT_PACKAGES += \
-    XiaomiDoze
-
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
